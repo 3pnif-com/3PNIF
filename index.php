@@ -46,7 +46,11 @@
         $sql = "SELECT * FROM settings WHERE id=0";
         $result = $conn->query($sql); 
         $row = $result->fetch_assoc();
-        $last_backup = substr($row['last_backup'], 0, 10);
+         if ($row['last_backup'] != "0000-00-00 00:00:00") {
+          $last_backup = substr($row['last_backup'], 0, 10);
+        } else {
+          $last_backup = "---";
+        }
 
         // WORKING TIME
         ///$sql = "SELECT elapsedtime FROM pentests";

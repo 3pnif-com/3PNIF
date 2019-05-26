@@ -62,7 +62,7 @@ if ($_POST["action"] == "restore_system") {
   //shell_exec("del database\fullbackup*.*");
   shell_exec("..\core\mysql\bin\mysql.exe -u " . DBUSER . " -p" . DBPASS . " --database " . DBNAME . " < " . $fileNameRestoreSystem);
 
-  $sql = "UPDATE settings SET last_backup = '" . $lastbackupDate . "'";
+  //$sql = "UPDATE settings SET last_backup = '" . $lastbackupDate . "'";
   $result = $conn->query($sql);
 
   showToastMessage("System restored successfully!");
@@ -166,7 +166,7 @@ if ($_POST["action"] == "clean") {
             <div style="display: flex;">
 
               <!-- BACKUP DATABASE -->
-              <button onclick="document.getElementById('formbackup').style.display='block'" class="w3-btn w3-orange" onclick="document.getElementById('pro').style.display='block';"><i class='fa fa-download'></i>Backup</button>
+              <button style="margin: 0 10px 0 0;" onclick="document.getElementById('formbackup').style.display='block'" class="w3-btn w3-orange" onclick="document.getElementById('pro').style.display='block';"><i class='fa fa-download'></i>Backup</button>
 
               <div id="formbackup" class="w3-modal"> <!-- por omissão: display: none -->
                 <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding: 20px;max-width:330px; border-radius: 10px;">
@@ -184,7 +184,7 @@ if ($_POST["action"] == "clean") {
 
               <!-- RESTORE DATABASE -->
               <?php if ($row['last_backup'] !="0000-00-00 00:00:00") { ?>
-                <button style="margin: 0 20px;" onclick="document.getElementById('formrestore').style.display='block'" class="w3-btn w3-orange" onclick="document.getElementById('pro').style.display='block';"><i class='fa fa-upload'></i>Restore</button>
+                <button style="margin: 0 10px;" onclick="document.getElementById('formrestore').style.display='block'" class="w3-btn w3-orange" onclick="document.getElementById('pro').style.display='block';"><i class='fa fa-upload'></i>Restore</button>
                <?php } ?>
 
                <div id="formrestore" class="w3-modal"> <!-- por omissão: display: none -->
@@ -202,7 +202,7 @@ if ($_POST["action"] == "clean") {
               </div>
 
               <!-- RESTORE SYSTEM DATABASE -->
-              <button style="width: 200px;" onclick="document.getElementById('formrestoresystem').style.display='block'" class="w3-btn w3-orange" onclick="document.getElementById('pro').style.display='block';"><i class='fa fa-cogs'></i>Restore System</button>
+              <button style="margin: 0 10px; width: 200px;" onclick="document.getElementById('formrestoresystem').style.display='block'" class="w3-btn w3-orange" onclick="document.getElementById('pro').style.display='block';"><i class='fa fa-cogs'></i>Restore System</button>
  
               <div id="formrestoresystem" class="w3-modal"> <!-- por omissão: display: none -->
                 <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding: 20px;max-width:330px; border-radius: 10px;">
@@ -219,7 +219,7 @@ if ($_POST["action"] == "clean") {
               </div>
 
               <!-- CLEAN DATABASE -->
-              <button style="margin: 0 20px;" onclick="document.getElementById('formclean').style.display='block'" class="w3-btn w3-orange" onclick="document.getElementById('pro').style.display='block';"><i class='fa fa-eraser'></i>Clean</button>
+              <button style="margin: 0 10px;" onclick="document.getElementById('formclean').style.display='block'" class="w3-btn w3-orange" onclick="document.getElementById('pro').style.display='block';"><i class='fa fa-eraser'></i>Clean</button>
  
               <div id="formclean" class="w3-modal"> <!-- por omissão: display: none -->
                 <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding: 20px;max-width:330px; border-radius: 10px;">

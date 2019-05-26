@@ -120,7 +120,7 @@ CREATE TABLE `settings` (
 
 LOCK TABLES `settings` WRITE;
 /*!40000 ALTER TABLE `settings` DISABLE KEYS */;
-INSERT INTO `settings` VALUES (0,'21,22,23,25,53,80,110,143','','10','10','ipleiria.pt','0000-00-00 00:00:00');
+INSERT INTO `settings` VALUES (0,'21,22,23,25,53,80,110,143','','10','10','google.pt','0000-00-00 00:00:00');
 /*!40000 ALTER TABLE `settings` ENABLE KEYS */;
 UNLOCK TABLES;
 
