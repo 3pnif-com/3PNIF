@@ -13,6 +13,7 @@ How did this work come about?
 This project work arises in the scope of the 1st Masters Course in Cyber-Security and Forensic Informatics (MCIF) of the Higher School of Technology and Management (ESTG) of the Polytechnic Institute of Leiria (IPL) in the 2017/2018 academic year and its presentation and public discussion aim at obtaining the Master's degree in this scientific area. 
 
 Visit www.3pnif.com for more information and access to the latest versions and news.
+
 Any question or suggestion, please send email to info@3pnif.com
 
 Cristiano P. Alves 
