@@ -1,0 +1,13 @@
+
+- Edit Model do dropdow, na nova janela, adicionar comando, fica na mm linha... devia ficar na seguinte
+
+
+
+-----------
+FALTA FAZER
+-----------
+
+- NMAP scripts
+
+- Fazer a experiencia 3 em ambiente profissional
+- Scripts python???
