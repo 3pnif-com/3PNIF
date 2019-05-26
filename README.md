@@ -39,4 +39,8 @@ To run the platform, open the file "3PNIF.bat", where the credentials for access
 1) Username: user
 2) Password: resu
 
-As an alternative to running the "3PNIF.bat" file, you can use the "UniController.exe" file which contains several procedures related to the Apache service, for management of the whole platform, including "Start MySQL" and "Start Apache ",
+As an alternative to running the "3PNIF.bat" file, you can use the "UniController.exe" file which contains several procedures related to the Apache service, for management of the whole platform, including "Start MySQL" and "Start Apache".
+
+Any question or suggestion, please send email to info@3pnif.com
+
+Thank you!
