@@ -1,0 +1,33 @@
+﻿
+---------------------------
+Mário Antunes 26-maio
+
+
+- Tentar que o trabalho seja genérico, ao nível da arquitectura e aplicado em vários domínios
+- Inovar pois pode ser reproduzida em qq contexto
+
+Schoolar para Estado da Arte (1º fazer e último a reler), quem já fez algum a coisa e problemas
+o que fizeram, o que não fizeram, trabalho futuro
+Fizeram isto e aquilo mas, não fizeram o que vou fazer
+
+RESUMO (4 paragrafos): tema do trabalho, o que está feito na área, o que proponho fazer para resolver falhas do que está feito, 
+INTRODUÇÃO estender o resumo e estrutura do artigo
+
+Opção "Abrir linha de comandos aqui"
+https://www.windowscentral.com/add-open-command-window-here-back-context-menu-windows-10
+
+TOOLS:
+------
+
+https://crt.sh/ -> online, 
+nmap ->
+TESTSSLSERVER -> online, 
+tools nirsoft (/stab):
+USBDeview -> /stab bom exemplo para GUI e fechando continua...
+cports.exe -> /stab
+wincmd... ->
+
+https://docs.microsoft.com/en-us/sysinternals/downloads/
+https://www.hacking.land/2014/03/comandos-forenses-para-windows-cheat.html
+
+
