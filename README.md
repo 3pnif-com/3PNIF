@@ -36,7 +36,7 @@ As for the second case, the process goes through the following steps:
 3) Place the unloaded www folder in 1) into the folder discharged in 2).
 
 To run the platform, open the file "3PNIF.bat", where the credentials for access are requested:
-• Username: user
-• Password: resu
+1) Username: user
+2) Password: resu
 
 As an alternative to running the "3PNIF.bat" file, you can use the "UniController.exe" file which contains several procedures related to the Apache service, for management of the whole platform, including "Start MySQL" and "Start Apache ",
