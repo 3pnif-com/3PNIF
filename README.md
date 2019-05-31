@@ -1,9 +1,6 @@
 
-3PNIF | Private Portable Pentest and Information Framework
+Welcome! Thank you for using 3PNIF!
 ----------------------------------------------------------
-
-Welcome!
-Thank you for using 3PNIF! 
 
 What is 3PNIF?
 Is a framework for free use.
