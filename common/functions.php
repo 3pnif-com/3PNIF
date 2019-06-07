@@ -24,7 +24,6 @@ function show3PNIFTitle() {
 
 function showFooter() {
   echo "<strong> © " . date('Y') .  " 3PNIF<br> </strong>";
-  echo "<a href='http://www.3pnif.com/' target='_blank'>www.3pnif.com</a><br>";
 }
 
 function check_version() {
