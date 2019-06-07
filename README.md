@@ -24,6 +24,8 @@ The process of instalation goes through the following steps:
 2) Download the necessary files on http://bit.ly/3pnif;
 3) Place the unloaded www folder in 1) into the folder discharged in 2).
 
+For running the Apache Uniform Server, it uses the vcruntime140.dll library to run without errors. This library must be installed from the Microsoft Visual C ++ 2015 Redistributable (x86) - 14.0.24123 pack, included for installation in the 3PNIF folder. Or you can download here: https://www.microsoft.com/en-us/download/details.aspx?id=48145
+
 To run the platform, open the file "3PNIF.bat", where the credentials for access are requested:
 1) Username: user
 2) Password: resu
