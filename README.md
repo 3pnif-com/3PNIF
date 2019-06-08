@@ -32,4 +32,7 @@ To run the platform, open the file "3PNIF.bat", where the credentials for access
 
 As an alternative to running the "3PNIF.bat" file, you can use the "UniController.exe" file which contains several procedures related to the Apache service, for management of the whole platform, including "Start MySQL" and "Start Apache".
 
+NOTE:
+One of the tools pre-introduced in 3PNIF is nmap. Nmap offers many features through its parameters, to obtain information related to hosts, services and the discovery of groups of hosts in a certain network address. Installation of the requirement for running nmap is required to install the npcap library for capturing packages for Windows environments. The latest version is available at https://nmap.org/npcap/dist/npcap-0.995.exe.
+
 Thank you!
